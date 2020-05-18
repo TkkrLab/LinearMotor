@@ -57,4 +57,4 @@ Commutation is the process of switching current in the motor phases to generate 
 	
 		
 ## Sponsors
-![Trinamic](/Images/TRINAMIC_LOGO_STANDARD_RGB.png)
+![Trinamic](/images/TRINAMIC_LOGO_STANDARD_RGB.png)
