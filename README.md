@@ -34,7 +34,7 @@ M4 tap\
 ## Required Materials
 Acrylic sheet to make a mould casing\
 N35 Neodynium magnets - 100 pieces\
-3x Copper coils ![Coils](/images/coils.jpg =250x) \
+3x Copper coils ![Coils](/images/coils.jpg) \
 Polyurethane\
 Silicone rubber\
 Optional: Copper wire 0.4mm\
