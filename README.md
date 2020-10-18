@@ -31,7 +31,7 @@ For more details on the design check out [Version 1](/Solidworks/V1/README.md) a
 There are some companies that sell coils made to specifications. We got ours from [JHCoils](https://www.jhcoils.com/), but if you are up to it you can always wind your own. If you decide to buy your coils, just keep in mind that you will have to pay extra if they do not have the required tooling available (So ask which sizes they have available already and pick one of those).
 ![Coils](/images/coils.jpg)
 
-Coil specs:
+#### Coil specs:
 dimensions: 25.5*14 mm  
 wire: 0.4mm
 
@@ -45,7 +45,7 @@ In sinusoidal commutation, all three wires are permanently energized with a sinu
 If a magnet is placed on a rotor inside this cage, its North and South poles will be pulled towards the South and North poles of the rotating field. Assuming for a moment that the magnetis field rotation is paused, we can see the effect of the pull on the magnet at different angular position relative to the rotating field.
 
 	
-###FOC (Field Oriented Control)
+### FOC (Field Oriented Control)
 ...TODO...  
 (https://www.roboteq.com/technology/field-oriented-control)
 
