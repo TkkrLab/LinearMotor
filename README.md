@@ -31,12 +31,12 @@ For more details on the design check out [Version 1](/Solidworks/V1/README.md) a
 There are some companies that sell coils made to specifications. We got ours from [JHCoils](https://www.jhcoils.com/), but if you are up to it you can always wind your own. If you decide to buy your coils, just keep in mind that you will have to pay extra if they do not have the required tooling available (So ask which sizes they have available already and pick one of those).
 ![Coils](/images/coils.jpg)
 
-#### Coil specs:
+#### Coil specs
 dimensions: 25.5*14 mm  
 wire: 0.4mm
 
 ## Commutation
-Commutation is the process of switching current in the motor phases to generate motion. Our ironless linear motors is based on a three phase motor design. There are several different ways to commutate a three phase motor, of which sinusoidal control is the most efficient. 
+Commutation is the process of switching current in the motor phases to generate motion. Our ironless linear motors is based on a three phase motor design. There are several different ways to commutate a three phase motor, of which sinusoidal control is the most efficient and most commonly used in the higher-end motor drives. 
 
 In sinusoidal commutation, all three wires are permanently energized with a sinusoidal current that is 120 degrees apart on each phase. This has the effect of creating a North/South magnetic field that rotates inside the motor cage. As shown in the figure below:  
 ![Commutation](/images/Rotating_field-compact.gif)
@@ -52,12 +52,8 @@ If a magnet is placed on a rotor inside this cage, its North and South poles wil
 
 
 
-__So why make our own?__
-Simply, just because we can! And its awesome to learn about new stuff.
 
-We do wish to mention [Vulcaman's](https://www.instructables.com/id/DIY-IRONLESS-LINEAR-SERVO-MOTOR/) motor build. This version is based on a simple L6234 motor controller IC and implements a basic sinusoidal commutation.
-
-
+### Motor Drive
 To drive our motor we are using a [TMC4671](https://www.trinamic.com/products/integrated-circuits/details/tmc4671-es/) controller from [Trinamic](#sponsors)
 
 We use this drive specifically because it has hardware FOC (Field Oriented Control). The TMC4671 [datasheet](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC4671_datasheet_v1.06.pdf)  explains very well what FOC is exactly, so please check it out.
@@ -65,6 +61,12 @@ We use this drive specifically because it has hardware FOC (Field Oriented Contr
 	
 ### Motor Initialization
 ...TODO...
+
+__So why make our own?__
+Simply, just because we can! And its awesome to learn about new stuff.
+
+We do wish to mention [Vulcaman's](https://www.instructables.com/id/DIY-IRONLESS-LINEAR-SERVO-MOTOR/) motor build. This version is based on a simple L6234 motor controller IC and implements a basic sinusoidal commutation.
+
 		
 ## Sponsors
 We would like to thank our Trinamic for providing us with a TMC4671 evaluation kit.
