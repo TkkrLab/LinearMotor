@@ -20,7 +20,7 @@ During rotation one of the phases of the motor will move from a positive polarit
 The coils that we purchased were produced specifically for linear motors, they have a size of 25.5*14mm. Since we also want to add watercooling channels between the coils we decided on a spacing of 18mm. If you do not wish to add watercooling we would recommend putting the coils as close together as possible.
 
 If we apply these values we would have a magnet with positive polarity at 0, negative polarity at 27mm and positive again at 54mm. Even though this would work, the motor will not be very powerfull. This can be improved by adding more pole pairs to the motor. You can keep adding adding pole pairs according to the following formula until you reach a magnet spacing / size suitable for your motor:  
-![Formula](/images/MagnetSpacingFormula.svg)  
+![Formula](/images/MagnetSpacingFormula.png)  
 You can also decide on a magnet spacing first and calculate the coil spacing accordingly.
 
 
